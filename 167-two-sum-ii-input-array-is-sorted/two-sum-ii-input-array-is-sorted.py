@@ -11,7 +11,7 @@ class Solution(object):
             cur_sum = numbers[i] + numbers[j]
             if cur_sum == target:
                 return i+1,j+1
-            if cur_sum < target:
+            elif cur_sum < target:
                 i +=1
             else:
                 j -=1
